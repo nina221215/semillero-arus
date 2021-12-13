@@ -1,0 +1,30 @@
+{
+  "name": "semillero",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "debug": "^4.3.3",
+    "express": "^4.17.1",
+    "standard": "^16.0.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "scripts": {
+    "start": "DEBUG=semillero:* MODE=PROD node server/index.js",
+    "dev": "DEBUG=semillero:* MODE=DEV nodemon server/index.js",
+    "list": "standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AngelManuel1995/semillero-arus.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AngelManuel1995/semillero-arus/issues"
+  },
+  "homepage": "https://github.com/AngelManuel1995/semillero-arus#readme"
+}
